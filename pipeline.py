@@ -1,3 +1,6 @@
 import pandas as pd
+import sys
 
-print('its working')
+
+date = sys.argv[1]
+print(f'its working {date}')
